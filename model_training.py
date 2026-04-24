@@ -39,3 +39,8 @@ pickle.dump(model, open("model.pkl", "wb"))
 pickle.dump(vectorizer, open("vectorizer.pkl", "wb"))
 
 print("Model and Vectorizer saved successfully!")  
+
+
+
+pickle.dump(vectorizer, open("vectorizer.pkl", "wb"))
+pickle.dump(model, open("model.pkl", "wb"))
