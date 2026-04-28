@@ -33,3 +33,9 @@ python -m uvicorn api:app --reload --port 8000
 
 ### Frontend
 python -m streamlit run app.py
+
+
+
+## 📸 Project Screenshot
+
+![App Screenshot](images/screenshot.png)
