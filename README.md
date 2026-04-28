@@ -23,3 +23,13 @@ pip install -r requirements.txt
 Run the app:
 
 streamlit run app.py
+
+
+
+##  How to Run
+
+### Backend
+python -m uvicorn api:app --reload --port 8000
+
+### Frontend
+python -m streamlit run app.py
